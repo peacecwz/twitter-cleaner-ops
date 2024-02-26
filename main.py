@@ -1,10 +1,11 @@
 import json
 import random
 import time
-from twikit import Client
-from twikit import Tweet
 import os
 from dotenv import load_dotenv
+
+from twikit.client import Client
+from twikit.tweet import Tweet
 
 load_dotenv()
 

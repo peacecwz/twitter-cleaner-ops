@@ -1,2 +1,3 @@
 dump/*.json
 .env
+**/__pycache__/
