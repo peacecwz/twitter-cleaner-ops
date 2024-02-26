@@ -15,7 +15,7 @@ followingsFilePath = './dump/followings.json'
 USERNAME = os.getenv('TWITTER_USERNAME')
 EMAIL = os.getenv('TWITTER_EMAIL')
 PASSWORD = os.getenv('TWITTER_PASSWORD')
-id = input("Please enter twitter id: ")
+id = input("Please enter tweet id: ")
 
 # Initialize client
 client = Client('en-US')
