@@ -16,9 +16,10 @@ USERNAME = os.getenv('TWITTER_USERNAME')
 EMAIL = os.getenv('TWITTER_EMAIL')
 PASSWORD = os.getenv('TWITTER_PASSWORD')
 id = input("Please enter tweet id: ")
+localization = input("Please enter localization (en-US, tr-TR, etc.): ")
 
 # Initialize client
-client = Client('en-US')
+client = Client(localization)
 
 def auth():
     if os.path.exists(authFilePath):
